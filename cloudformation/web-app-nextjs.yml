@@ -122,8 +122,8 @@ Resources:
           #!/bin/bash 
           set -ex
           yum update -y && yum install git nodejs -y
-          git clone https://github.com/UNOCourseDemo/Demo.git
-          cd Demo
+          git clone https://github.com/hshanno/Cloud-Computing-Project.git
+          cd Cloud-Computing-Project
           npm i
           npm i pm2 -g
           npx prisma migrate reset --force && npx prisma migrate dev --name init
